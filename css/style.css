@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+body{
+    padding: 35px 35px 0 35px;
+   
+}
+
+.fotograf-nav{
+    height: 100vh;
+    width: 100%;
+ 
+    background-image:   url(img/plaza.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.glowny-napis{
+    font-size: 6em;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    
+}
+.white{
+    color:blue;
+  
+}
+.orange{
+    color: white;
+}
+
+
+
+.karty{
+    margin: 60px 0 120px 0;
+    padding: 30px;
+}
+.box{
+   
+   text-align: center;
+    height: 370px;
+    background-color: #ededed;
+    -webkit-box-shadow: 10px 7px 36px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 7px 36px -13px rgba(0,0,0,0.75);
+box-shadow: 10px 7px 36px -13px rgba(0,0,0,0.75);
+border-radius: 7px;
+}
+.box ul, li {
+    display: block;
+    
+    padding: 3px;
+     list-style-type: none;
+}
+
+.box h3 {
+    display: block;
+    margin-top: 25px;
+     margin-bottom:  10px;
+   color: blueviolet;
+    
+   
+}
+.tekst{
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 1.1em;
+    padding: 10px;
+}
+.box:hover{
+    margin-top: 5px;
+}
+.wycieczki{
+    height: 73vh;
+
+}
+.wycieczki img {
+    height: 500px;
+    width: 100%;
+    
+
+}
+
+.move:hover{
+    transform: translateY(-30px);
+}
+
+
+.oferta{
+    margin-bottom: 100px;
+}
+
+.oferta p {
+    padding: 20px;
+    font-weight: 400;
+    font-size: 1.4em;
+    text-align: center;
+    display:  block;
+
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.icon-big{
+    font-size: 90px;
+    margin-top: 20px;
+    padding: 15px;
+    color: blueviolet;
+}
+
+.oferta h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 25px;
+}
+
+.podkre::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 200px;
+    background-color: blue;
+    position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 10px;
+}
+
+.left img{
+    border-radius: 0 30px 80px 0;
+}
+.right img{
+    border-radius: 30px 0  0 80px;
+}
+.galeria img {
+    height: 320px;
+   width: 100%;
+ 
+}
+
+.button:link,
+.button:active,
+.button:visited
+{
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 35px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.button-left{
+   position: absolute;
+    margin-top: 20px;
+    left: 20%;
+
+}
+.button-right{
+    position: absolute;
+    margin-top: 20px;
+    right: 20%;
+    
+}
+
+.button:hover{
+    background-color: #fff;
+    color: blue;
+   border: 1px blue solid;
+}
+.stopka{
+    margin-top: 200px;
+    height: 120px;
+    width: 100%;
+    background-color: lightblueli;
+    text-align: center;
+    line-height: 120px;
+    font-weight: 400;
+}
+h3::selection{
+    background-color: #555;
+    color: yellow;
+}
